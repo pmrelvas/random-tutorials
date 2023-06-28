@@ -28,4 +28,15 @@ pub fn run() {
   // Get slice
   let slice: &[i32] = &numbers[1..3];
   println!("slice: {:?}", slice);
+
+  // loop through vector values
+  for x in numbers.iter() {
+    println!("Number: {}", x);
+  }
+
+  // loop and mutate values
+  for x in numbers.iter_mut() {
+    *x *= 2;
+  }
+  println!("Numbers vec mut: {:?}", numbers);
 }
