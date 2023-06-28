@@ -1,4 +1,4 @@
-// conditionals are used to check the condition of something and act ...
+// conditionals are used to check the condition of something and act on the result
 pub fn run() {
   let age: u8 = 18;
   let check_id: bool = false;
